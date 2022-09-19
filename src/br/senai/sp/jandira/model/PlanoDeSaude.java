@@ -20,7 +20,7 @@ public class PlanoDeSaude {
 	}
 	
 	public String getDadosDoPlano() {
-		return "Plano: " + this.operadoraPlanoSaude + "," + this.tipoPlano;
+		return "Operadora convênio: " + this.operadoraPlanoSaude + " | " + "Tipo do plano: " + this.tipoPlano;
 	}
 	
 	
